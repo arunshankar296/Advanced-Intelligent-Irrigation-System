@@ -44,3 +44,9 @@ Step 1: Collect all the components and connect those to the Arduino Atmega 2560(
 Step 2: Install the Required Arduino Libraries(Given in LIBRARY Folder)
 Step 3:Upload the Main Arduino Code to the atmega 2560( I have used Ardiuno IDE)
 Step 4: Install System in Real Field / Garden
+
+To run this project, download all required Arduino libraries here:
+👉 Download libraries.zip
+Unzip it and place the contents inside your Arduino `libraries` folder:
+Documents → Arduino → libraries
+Then restart the Arduino IDE.
