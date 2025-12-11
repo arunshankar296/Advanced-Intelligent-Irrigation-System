@@ -1,0 +1,8 @@
+-power supply- lithium polymer battery(lipo)
+(2s-2cell-7.4 to power atmega 2560)
+(3s-3cell-11.1v for for all others)
+(upconverter 11.1V to 24V DC for solenoid)
+(downconverter 11.1V to 6V for well water pump, GSM)
+(variable downconverter 11.1V to 6V for drip pump)
+
+

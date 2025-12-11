@@ -1,0 +1,12 @@
+The Advanced Intelligent Irrigation System is built to automate irrigation using real-time sensor data and time-based scheduling.
+The system is powered by the Arduino Mega 2560, which receives inputs from various sensors.
+Soil moisture sensors monitor the moisture content of the soil.
+An ultrasonic sensor is used to measure the water level in the storage tank.
+A well water level sensor checks the availability of water in the well before pumping.
+The DS3231 RTC module ensures accurate timing for scheduled irrigation activities.
+A mains power detection circuit monitors the availability of electricity for safe pump operation.
+A current sensor tracks whether the pump is running and monitors power consumption.
+Flow sensors on two irrigation lines measure water delivery to ensure efficient usage.
+Based on sensor data and time conditions, the Arduino controls relays to switch the pump and solenoid valves (drip lines) on or off.
+A 20x4 I2C LCD displays real-time data such as soil moisture levels, tank water level, pump status
+The system logic is implemented using the Arduino IDE, resulting in a smart, automated, and sustainable irrigation system with minimal manual effort.
